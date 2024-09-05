@@ -36,16 +36,7 @@ SELECT `Date`, SUM(Revenue) AS Total_Revenue
 FROM amazon_financial_kpi
 GROUP BY `Date`
 ORDER BY Total_Revenue DESC;
-
-# Financial KPI Dashboard Project
-
-## Overview
-
-This project involves the development of a comprehensive financial KPI dashboard using SQL for data extraction and Power BI for visualization. The dashboard provides real-time insights into key financial metrics, enabling more effective monitoring of financial performance and informed strategic decision-making.
-
-## Data Extraction
-
-The following SQL queries were used to extract relevant financial data:
+```
 
 ### Total Expenses by Month
 
